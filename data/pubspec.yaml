@@ -1,0 +1,26 @@
+name: data
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.1.5
+
+# Add regular dependencies here.
+dependencies:
+  # path: ^1.8.0
+  retrofit: '>=4.0.0 <5.0.0'
+  json_annotation: ^4.8.1
+  dio: ^5.3.3
+  get:
+  domain:
+    path: ../domain
+
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
+  flutter_lints: ^2.0.0
+  build_runner: '>=2.3.0 <4.0.0'
+  retrofit_generator: '>=7.0.0 <8.0.0'
+  json_serializable: ^6.6.2

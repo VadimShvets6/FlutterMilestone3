@@ -1,0 +1,31 @@
+name: presentation
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  domain:
+    path: ../domain
+
+  di:
+    path: ../di
+
+  confetti: ^0.6.0
+
+  get:
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: '>=2.3.0 <4.0.0'
+
+flutter:
+  uses-material-design: true
+
